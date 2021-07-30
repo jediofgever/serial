@@ -69,6 +69,7 @@ install(DIRECTORY include/
 DESTINATION include/)
 
 ament_export_include_directories(include) 
+ament_export_libraries(${PROJECT_NAME})
 
 ## Tests
 #if(CATKIN_ENABLE_TESTING)
